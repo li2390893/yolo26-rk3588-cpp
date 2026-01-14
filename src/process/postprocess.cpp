@@ -57,7 +57,7 @@ namespace yolo
     static float objectThreshold = 0.5;
     static float nmsThreshold = 0.5;
     static int headNum = 3;
-    static int class_num = 8;
+    static int class_num = 80;
     static int strides[3] = {8, 16, 32};
     static int mapSize[3][2] = { {80, 80}, {40, 40},{20, 20}};
 #define ZQ_MAX(a, b) ((a) > (b) ? (a) : (b))
